@@ -33,15 +33,16 @@ fonts:
 - 名無し。/ Nanashi.
 - 25年度入学 B2 I類
 - Virtual Live Labという団体に所属しているらしい
-- Voicevoxの開発にかかわっていたり（メンテナー四天王の一人）
+- Voicevoxエディタの開発したり（メンテナー四天王の一人）
 - Kiite Cafe DesktopやKikouneも作ったり
 - AviUtl2関連でいろいろ作ったり
-- 曲も作ったり
 - VLL用短縮リンクシステムも作ったり
+- 刑法ガチャやWeblioメスガキ化プラグインも作ったり
+- 曲も作ったり
 
 https://sevenc7c.com
 
-<img src="./general.apng" un-absolute un-right="0" un-h="60" un-top="1/2" un-translate-y="-1/2" un-pointer-events-none />
+<img src="./general.apng" un-absolute un-right="0" un-h="54" un-top="1/2" un-translate-y="-1/2" un-pointer-events-none />
 
 
 ---
@@ -299,7 +300,7 @@ transition: fade
 # <span un-text="[#f85207]">aviutl2-rs</span>
 
 - AviUtl2のプラグインをRustで書くためのライブラリ
-- 採用実績：AviUtl2カタログのパッケージのおおよそ1/6はaviutl2-rs製[^1][]
+- AviUtl2カタログのパッケージのおおよそ1/6はaviutl2-rs製[^1][]
 - 2026/7/13にv0.1.0をリリース
 - 現在v0.22.0
 - 採用実績：Rusty Scripts Search Plugin、ntsc-rs.anm2、clipboard.aux2など

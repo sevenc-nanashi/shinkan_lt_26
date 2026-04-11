@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
+    "build:pages": "slidev build --base /shinkan_lt_26/",
     "dev": "slidev --open",
     "export": "slidev export"
   },
