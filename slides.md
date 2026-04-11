@@ -33,7 +33,7 @@ fonts:
 - 名無し。/ Nanashi.
 - 25年度入学 B2 I類
 - Virtual Live Labという団体に所属しているらしい
-- Voicevoxの開発にかかわっていたり（四天王の一人）
+- Voicevoxの開発にかかわっていたり（メンテナー四天王の一人）
 - Kiite Cafe DesktopやKikouneも作ったり
 - AviUtl2関連でいろいろ作ったり
 - 曲も作ったり
@@ -53,6 +53,8 @@ https://sevenc7c.com
 - 2025/7/7に2.00 beta1がリリース
 - 毎週土曜日または日曜日に更新
 - 現在は2.00 beta40a
+
+<img src="./au2.png" un-h="50" un-absolute un-right="2" un-bottom="2" un-pointer-events-none />
 
 ---
 
