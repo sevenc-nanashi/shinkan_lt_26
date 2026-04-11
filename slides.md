@@ -28,6 +28,24 @@ fonts:
 
 ---
 
+# どなた？
+
+- 名無し。/ Nanashi.
+- 25年度入学 B2 I類
+- Virtual Live Labという団体に所属しているらしい
+- Voicevoxの開発にかかわっていたり（四天王の一人）
+- Kiite Cafe DesktopやKikouneも作ったり
+- AviUtl2関連でいろいろ作ったり
+- 曲も作ったり
+- VLL用短縮リンクシステムも作ったり
+
+https://sevenc7c.com
+
+<img src="./general.apng" un-absolute un-right="0" un-h="60" un-top="1/2" un-translate-y="-1/2" un-pointer-events-none />
+
+
+---
+
 # AviUtl2、使ってますか？
 
 - 正式名称：AviUtl ExEdit2
