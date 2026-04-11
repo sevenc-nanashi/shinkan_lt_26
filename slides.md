@@ -71,7 +71,6 @@ fonts:
 - GitHubでのプラグイン・スクリプト配布の増加
 
 ---
-
 transition: fade
 
 ---
@@ -98,7 +97,6 @@ transition: fade
 - （au2pkg.zipでパッケージ化して配布）
 
 ---
-
 transition: fade
 
 ---
@@ -135,7 +133,6 @@ transition: fade
 </v-click>
 
 ---
-
 transition: fade
 
 ---
@@ -165,7 +162,6 @@ transition: fade
 - （au2pkg.zipでパッケージ化して配布）
 
 ---
-
 transition: fade
 
 ---
@@ -202,7 +198,6 @@ transition: fade
 </v-click>
 
 ---
-
 transition: fade
 
 ---
@@ -280,7 +275,6 @@ Rustのうれしいところ
 <img v-click="6" src="./ferrs.png" un-h="[50%]" un-absolute un-right="0" un-top="40" un-pointer-events-none />
 
 ---
-
 transition: fade
 
 ---
@@ -304,10 +298,10 @@ transition: fade
 # <span un-text="[#f85207]">aviutl2-rs</span>
 
 - AviUtl2のプラグインをRustで書くためのライブラリ
-- AviUtl2カタログのパッケージのおおよそ1/6はaviutl2-rs製[^1][]
 - 2026/7/13にv0.1.0をリリース
 - 現在v0.22.0
-- 採用実績：Rusty Scripts Search Plugin、ntsc-rs.anm2、clipboard.aux2など
+- AviUtl2カタログのパッケージのおおよそ1/6はaviutl2-rs製[^1][]
+- 採用実績：Rusty Scripts Search Plugin、Rusty Images Input、ntsc-rs.anm2等
 
 <v-click>
 
@@ -318,7 +312,6 @@ transition: fade
 [^1]: 181パッケージ中32パッケージ（2026/4/11現在）
 
 ---
-
 transition: fade
 
 ---
@@ -356,8 +349,6 @@ transition: fade
 
 <v-click>
 
-<div un-h="20" />
-
 ### おまけ
 
 - Rust製プラグイン32個のうち、私が開発したのは30個です
@@ -370,4 +361,4 @@ transition: fade
 
 # vi5.aux2 デモ
 
-<Youtube id="-kLwCVB7Qu0?start=100" />
+<Youtube id="-kLwCVB7Qu0?start=100" un-w="full" un-h="full" />
