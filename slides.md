@@ -337,3 +337,9 @@ transition: fade
   - https://sevenc7c.com/works#6oClockKoto
 
 </v-click>
+
+---
+
+# vi5.aux2 デモ
+
+<Youtube id="-kLwCVB7Qu0?start=100" />
