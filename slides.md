@@ -1,12 +1,9 @@
 ---
 # try also 'default' to start simple
 theme: default
-title: Welcome to Slidev
+title: 【令和最新版】AviUtl2のプラグインを作ろう！
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+  電通大技術系サークル合同新歓2026の発表資料です。
 # apply UnoCSS classes to the current slide
 class: text-center
 # https://sli.dev/features/drawing
@@ -16,8 +13,6 @@ drawings:
 transition: slide-left
 # enable Comark Syntax: https://comark.dev/syntax/markdown
 comark: true
-# duration of the presentation
-duration: 35min
 fonts:
   sans: "M PLUS 1p"
   weights: 400,700
@@ -35,9 +30,11 @@ fonts:
 
 # AviUtl2、使ってますか？
 
-- AviUtlの正統後継ソフトウェア
 - 正式名称：AviUtl ExEdit2
+- AviUtlの正統後継ソフトウェア
 - 2025/7/7に2.00 beta1がリリース
+- 毎週土曜日または日曜日に更新
+- 現在は2.00 beta40a
 
 ---
 
@@ -48,15 +45,16 @@ fonts:
 - プラグインAPIの刷新・拡張
 - パッケージフォーマットの確立（.au2pkg.zip）
 
-## コミュニティ側の変更点
+## コミュニティ側の変化
 
-- 主流と呼べるコミュニティの誕生（AviUtl2の情報が知りたいだろって！！）
+- 巨大コミュニティの誕生（「AviUtl2の情報が知りたいだろって！！」）
 - 主流と呼べるパッケージマネージャーの誕生（AviUtl2 カタログ）
-- GitHubでのプラグイン配布の増加
+- GitHubでのプラグイン・スクリプト配布の増加
 
 ---
+transition: fade
 
-## transition: fade
+---
 
 # AviUtl1のプラグインの作り方
 
@@ -80,8 +78,9 @@ fonts:
 - （au2pkg.zipでパッケージ化して配布）
 
 ---
+transition: fade
 
-## transition: fade
+---
 
 <div  un-text-center un-h-full un-grid un-items-center>
 
@@ -115,10 +114,14 @@ fonts:
 </v-click>
 
 ---
+transition: fade
 
-# AviUtl2のプラグインの作り方\_改善版
+---
 
-- <span un-relative><span v-click.hide un-absolute un-text="nowrap">AviUtl2 SDK（zip）をダウンロード + 再エンコード</span><span v-after un-font="bold">aviutl2_sdk_mirrorをsubmoduleとしてクローン</span></span>
+# AviUtl2のプラグインの作り方
+
+- AviUtl2 SDK（zip）をダウンロード
+  - 必要に応じてShift-JISからUTF-8に変換
 - C++でコードを書く
 - Visual StudioやCMakeでDLLをビルド
 - AviUtl2のpluginフォルダにDLLをコピー
@@ -127,7 +130,22 @@ fonts:
 
 ---
 
-## transition: fade
+# AviUtl2のプラグインの作り方\_改善版
+
+- **aviutl2_sdk_mirrorをsubmoduleとしてクローン**
+
+<div un-relative un-h="[1.8em]" />
+
+- C++でコードを書く
+- Visual StudioやCMakeでDLLをビルド
+- AviUtl2のpluginフォルダにDLLをコピー
+- AviUtl2を起動して動作確認
+- （au2pkg.zipでパッケージ化して配布）
+
+---
+transition: fade
+
+---
 
 <div  un-text-center un-h-full un-grid un-items-center>
 
@@ -150,13 +168,29 @@ fonts:
 - https://github.com/sevenc-nanashi/aviutl2-cli
 - AviUtl2のプラグイン・スクリプトの開発環境を構築するツール
 - ビルドコマンドとビルド元と配置先を書けば1コマンドでテスト環境ができる
-- パッケージも1コマンドで作れる
+  - `au2 prepare` でテスト用環境の構築
+  - `au2 dev` でビルド+コピー+動作確認
+- パッケージも1コマンドで作れる（`au2 release`）
 
 <v-click>
 
-- 開発者は私です <img un-h="40" src="./i-made.jpg" un-inline />
+- 開発者は私です <img un-h="35" src="./i-made.jpg" un-inline />
 
 </v-click>
+
+---
+transition: fade
+
+---
+
+# AviUtl2のプラグインの作り方\_改善版
+
+- aviutl2_sdk_mirrorをsubmoduleとしてクローン
+- C++でコードを書く
+- Visual StudioやCMakeでDLLをビルド
+- AviUtl2のpluginフォルダにDLLをコピー
+- AviUtl2を起動して動作確認
+- （au2pkg.zipでパッケージ化して配布）
 
 ---
 
@@ -164,26 +198,10 @@ fonts:
 
 - aviutl2_sdk_mirrorをsubmoduleとしてクローン
 - C++でコードを書く
-<div un-relative>
-<v-click hide>
-
-<ul un-absolute>
-<li>Visual StudioやCMakeでDLLをビルド</li>
-<li>AviUtl2のpluginフォルダにDLLをコピー</li>
-<li>AviUtl2を起動して動作確認</li>
-<li>（au2pkg.zipでパッケージ化して配布）</li>
-</ul>
-
-</v-click>
-<v-after>
-
 - **Visual StudioやCMakeでDLLのビルド環境を構築**
 - **`au2 prepare` -> `au2 dev` でビルド+コピー+動作確認**
 - **独立したAviUtl2環境で動作確認**
 - **`au2 release` でパッケージ化して配布**
-
-</v-after>
-</div>
 
 ---
 
@@ -204,7 +222,7 @@ fonts:
 - 型推論が比較的弱い
 - 勝手にコピーが走って事故りやすい（n敗）
 - 古い仕様に引きずられている
-- 公式のキャラクターがかわいくない
+- キャラクターがかわいくない
 - <span un-font="bold [Microsoft_YaHei]">令和最新版</span>ではない
 
 </v-clicks>
@@ -225,21 +243,22 @@ Rustのうれしいところ
 
 <v-clicks>
 
-- 中央集権のパッケージマネージャー
+- 中央集権のパッケージマネージャー（crates.io）
 - 型推論が強力
-- コピーが明示的
-- 近代的な仕様
+- 重量コピーが明示的
+- 互換性を保ったまま仕様を進化させやすい（Edition）
 - どのエディタでも快適に書ける
-- 公式のキャラクターがかわいい
+- キャラクターがかわいい
 - <span un-font="bold [Microsoft_YaHei]">令和最新版</span>
 
 </v-clicks>
 
-<img v-click="5" src="./ferrs.png" un-h="[50%]" un-absolute un-right="0" un-top="20" un-pointer-events-none />
+<img v-click="6" src="./ferrs.png" un-h="[50%]" un-absolute un-right="0" un-top="40" un-pointer-events-none />
 
 ---
+transition: fade
 
-## transition: fade
+---
 
 <div un-grid un-items-center un-h-full un-text-center>
 
@@ -257,58 +276,50 @@ Rustのうれしいところ
 
 ---
 
-# aviutl2-rs
+# <span un-text="[#f85207]">aviutl2-rs</span>
 
 - AviUtl2のプラグインをRustで書くためのライブラリ
 - 採用実績：AviUtl2カタログのパッケージのおおよそ1/6はaviutl2-rs製[^1][]
 - 2026/7/13にv0.1.0をリリース
 - 現在v0.22.0
+- 採用実績：Rusty Scripts Search Plugin、ntsc-rs.anm2、clipboard.aux2など
 
 <v-click>
 
-- 開発者は私です <img un-h="40" src="./i-made.jpg" un-inline />
+- 開発者は私です <img un-h="30" src="./i-made.jpg" un-inline />
 
 </v-click>
 
-[^1]: 180パッケージ中32パッケージ（2026/4/10現在）
+[^1]: 181パッケージ中32パッケージ（2026/4/11現在）
+
+---
+transition: fade
+
+---
+# AviUtl2のプラグインの作り方\_改善版(2)
+
+- aviutl2_sdk_mirrorをsubmoduleとしてクローン
+- C++でコードを書く
+- Visual StudioやCMakeでDLLのビルド環境を構築
+- `au2 prepare` -> `au2 dev` でビルド+コピー+動作確認
+- 独立したAviUtl2環境で動作確認
+- `au2 release` でパッケージ化して配布
 
 ---
 
-# <span un-font="bold [Microsoft_YaHei]">【令和最新版】</span> AviUtl2プラグインの作り方
-
-<div un-relative>
-<v-click hide>
-
-<ul un-absolute>
-
-<li>aviutl2_sdk_mirrorをsubmoduleとしてクローン</li>
-<li>C++でコードを書く</li>
-<li>Visual StudioやCMakeでDLLをビルド</li>
-<li> <code>au2 prepare</code> -> <code>au2 dev</code> でビルド+コピー+動作確認</li>
-<li>独立したAviUtl2環境で動作確認</li>
-<li><code>au2 release</code> でパッケージ化して配布</li>
-
-</ul>
-
-</v-click>
-<v-after>
+# <span un-font="bold [Microsoft_YaHei]" un-text="[#f85207]">【令和最新版】AviUtl2プラグインの作り方</span>
 
 - **`cargo add aviutl2` でSDKをプロジェクトに追加**
 - **Neovimなどの好きなエディタでRustでプラグインを書く**
 - `au2 prepare` -> `au2 dev` でビルド+コピー+動作確認
 - 独立したAviUtl2環境で動作確認
 - `au2 release` でパッケージ化して配布
-
-</v-after>
-
-</div>
-
 ---
 
 # まとめ
 
-- aviutl2_sdk_mirrorでSDKの入手と管理が楽に
-- aviutl2-cliでビルドとテスト環境の構築が楽に
+- aviutl2_sdk_mirrorでSDKの入手と管理を楽に
+- aviutl2-cliでテスト環境の構築とパッケージ化を楽に
 - aviutl2-rsでRustでプラグインが書ける
 
 <div un-h="4" />
