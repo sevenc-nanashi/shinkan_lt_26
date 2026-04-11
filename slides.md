@@ -333,5 +333,7 @@ transition: fade
 ### おまけ
 
 - Rust製プラグイン32個のうち、私が開発したのは30個です
+- p5 in AviUtl2をするプロジェクトも作っていて、それを使ってMVを作ったりしています
+  - https://sevenc7c.com/works#6oClockKoto
 
 </v-click>
