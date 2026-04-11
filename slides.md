@@ -30,7 +30,7 @@ fonts:
 
 # どなた？
 
-- 名無し。/ Nanashi.
+- 名無し。/ Nanashi. - https://sevenc7c.com
 - 25年度入学 B2 I類
 - Virtual Live Labという団体に所属しているらしい
 - Voicevoxエディタの開発したり（メンテナー四天王の一人）
@@ -38,12 +38,10 @@ fonts:
 - AviUtl2関連でいろいろ作ったり
 - VLL用短縮リンクシステムも作ったり
 - 刑法ガチャやWeblioメスガキ化プラグインも作ったり
+- AtCoderしたり（水色）
 - 曲も作ったり
 
-https://sevenc7c.com
-
 <img src="./general.apng" un-absolute un-right="0" un-h="54" un-top="1/2" un-translate-y="-1/2" un-pointer-events-none />
-
 
 ---
 
@@ -73,6 +71,7 @@ https://sevenc7c.com
 - GitHubでのプラグイン・スクリプト配布の増加
 
 ---
+
 transition: fade
 
 ---
@@ -99,6 +98,7 @@ transition: fade
 - （au2pkg.zipでパッケージ化して配布）
 
 ---
+
 transition: fade
 
 ---
@@ -135,6 +135,7 @@ transition: fade
 </v-click>
 
 ---
+
 transition: fade
 
 ---
@@ -164,6 +165,7 @@ transition: fade
 - （au2pkg.zipでパッケージ化して配布）
 
 ---
+
 transition: fade
 
 ---
@@ -200,6 +202,7 @@ transition: fade
 </v-click>
 
 ---
+
 transition: fade
 
 ---
@@ -277,6 +280,7 @@ Rustのうれしいところ
 <img v-click="6" src="./ferrs.png" un-h="[50%]" un-absolute un-right="0" un-top="40" un-pointer-events-none />
 
 ---
+
 transition: fade
 
 ---
@@ -314,9 +318,11 @@ transition: fade
 [^1]: 181パッケージ中32パッケージ（2026/4/11現在）
 
 ---
+
 transition: fade
 
 ---
+
 # AviUtl2のプラグインの作り方\_改善版(2)
 
 - aviutl2_sdk_mirrorをsubmoduleとしてクローン
@@ -335,6 +341,7 @@ transition: fade
 - `au2 prepare` -> `au2 dev` でビルド+コピー+動作確認
 - 独立したAviUtl2環境で動作確認
 - `au2 release` でパッケージ化して配布
+
 ---
 
 # まとめ
