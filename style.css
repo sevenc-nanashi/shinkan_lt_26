@@ -1,0 +1,11 @@
+:root {
+  font-size: 20px;
+}
+
+h1 {
+  color: oklch(0.6908 0.1047 217.34);
+}
+
+.footnotes {
+  font-size: 16px;
+}
