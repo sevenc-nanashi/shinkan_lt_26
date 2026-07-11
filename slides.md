@@ -13,6 +13,7 @@ drawings:
 transition: slide-left
 # enable Comark Syntax: https://comark.dev/syntax/markdown
 comark: true
+routerMode: hash
 fonts:
   sans: "M PLUS 1p"
   weights: 400,700
